@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: #000;
+}
+.content{
+height: 100px;
+width: 100px;
+color: white;
+border: 5px solid white ;
+border-radius:100% ;
+animation: roll .5s linear infinite;  
+animation-direction: alternate-reverse;
+}
+.content ::before{
+    content: '';
+    
+}
+@keyframes roll {
+0%{
+    transform: rotate(0deg);
+    translate: 0deg;
+    top: 0;
+    bottom: 0;
+}
+100%{
+    transform: rotate(360deg);
+    transform: translate(50px );
+    top: 40px;
+    bottom: 49px;
+} 
+}

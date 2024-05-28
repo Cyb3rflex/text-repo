@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    background: #000020;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  .container3{
+    position: relative;
+    margin-bottom: 20%;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    /* position: relative; */
+    flex-wrap: wrap;
+    overflow: hidden;
+    background: red;
+    animation: awuna 1s  linear infinite;
+    animation-timing-function: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes awuna {
+    0%{
+      transform: rotate(0deg);
+     left: 0;
+     top: 0;
+    }
+    100%{
+      transform: rotate(90deg);
+      left: 100px;
+      top: 100px;
+    }
+  }
+ 
+  .box{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    display: flex;
+    background: rgb(42, 42, 110);
+    animation: wuna 1s  linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .hand{
+    position: absolute;
+    border: 3px solid black;
+    margin-left: 4%;
+    margin-top: 15%;
+    height: 80px;
+    width: 10px;
+    border-radius: 10%;
+    background: black;
+  }

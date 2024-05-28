@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg Document</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+
+   <section>
+    <div class="second-container hide" >
+        <div class="details">
+            <div class="second">
+                <h1>Hello, Friend</h1>
+                <p>Register with your Personal details
+                     to use all of site features
+                </p>
+                <div class="sign_up" id="btn1">
+                    <button> Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>  
+   </section>  
+    <div class="form-container">
+        <form class="label">
+            <div class="one">
+                <h1>Create an Account</h1>
+            </div>
+           <div class="inp">
+            <input type="text" class="inp_name" placeholder="Name">
+            <span id="nameErrorMessage" class="secsp"></span>
+            <input type="email" class="inp_email" placeholder="Email">
+            <input type="password"class="inp_password"  placeholder="Password">
+            <button>Sign Up</button>
+           </div>
+        </form>
+    </div>
+    <script>
+        const button1 = document.querySelector("#btn1")
+        const form = document.querySelector(".label")
+        button1.addEventListener('click', function(e){
+            e.preventDefault();
+            button1.innerHTML = "Sign Up";
+            document.getElementById("nameErrorMessage").innerHTML="Input your Name!!!";
+            
+
+        })
+    </script>
+</body>
+</html>
