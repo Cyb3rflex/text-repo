@@ -1,0 +1,269 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #000020;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+ .cout{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: black;
+  border-radius: 50px;
+
+  height: 20%;
+  width: 50%;
+  padding-top: 10%; */
+ } 
+ .cout h2{
+  width: 40px;
+  height: 10px;
+  color: bisque;
+  padding-left: 90%;
+  background-color: aliceblue;
+
+} 
+
+.container{
+  position: absolute;
+  margin-bottom: 20%;
+  border: white 3px solid;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: wheat;
+  animation: awuna 2s  linear infinite;
+  transform: rotate(90deg);
+  transition: .5s;
+}
+
+ @keyframes awuna {
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(90deg);
+  }
+} 
+
+.box{
+  border: white solid 2px;
+  min-width: 96px;
+  height: 100px;
+  animation: ball .5s linear infinite; 
+}
+
+ @keyframes ball {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+} 
+
+.one{
+  background: blue;
+}
+
+.two{
+  background: red;
+}
+
+.three{
+  background: red;
+}
+
+.four{
+  background: blue;
+}
+
+
+
+
+.container2{
+  border: white 3px solid;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap; 
+  overflow: hidden;
+  background: wheat;
+  animation: awuna 2s infinite;
+}
+
+@keyframes awuna {
+  0%{
+    transform: rotate(0deg);
+    translate: -300px;
+  }
+
+  100%{
+    transform: rotate(360deg);
+    translate: 300px;
+  }
+}
+
+.box{
+  border: white solid 2px;
+  min-width: 96px;
+  height: 100px;
+  animation: ball .5s infinite linear;
+}
+
+@keyframes ball {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(90deg);
+  }
+}
+
+.one{
+  background: red;
+}
+
+.two{
+  background: green;
+}
+
+.three{
+  background: green;
+}
+
+.four{
+  background: red;
+}
+.container3{
+  position: absolute;
+  margin-bottom: 20%;
+  border: white 3px solid;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: wheat;
+  animation: awuna 2s infinite linear;
+}
+
+@keyframes awuna {
+  0%{
+    transform: rotate(0deg);
+    translate: -300px;
+  }
+
+  100%{
+    transform: rotate(360deg);
+    translate: 300px;
+  }
+
+
+
+}
+
+.box{
+  border: white solid 2px;
+  min-width: 96px;
+  height: 100px;
+  animation: ball .5s infinite linear;
+}
+
+@keyframes ball {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.one{
+  background: brown;
+}
+
+.two{
+  background: green;
+}
+
+.three{
+  background: cyan;
+}
+
+.four{
+  background: magenta;
+}
+.container4{
+  border: white 3px solid;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: wheat;
+  animation: awuna 2s infinite;
+}
+
+@keyframes awuna {
+  0%{
+    transform: rotate(0deg);
+    translate: -300px;
+  }
+
+  100%{
+    transform: rotate(360deg);
+    translate: 300px;
+  }
+}
+
+.box{
+  border: white solid 2px;
+  min-width: 96px;
+  height: 100px;
+  animation: ball .5s infinite linear;
+}
+
+@keyframes ball {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(90deg);
+  }
+}
+
+.one{
+  background: red;
+}
+
+.two{
+  background: green;
+}
+
+.three{
+  background: green;
+}
+
+.four{
+  background: red;
+} */
+
+
